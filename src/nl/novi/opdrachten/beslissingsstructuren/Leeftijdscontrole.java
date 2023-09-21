@@ -10,6 +10,7 @@ public class Leeftijdscontrole {
         int givenAge = userInputScanner.nextInt();
 
         /*
+
         In Nederland mag je alcoholische dranken kopen vanaf je 18e. Je moet echter tot je 25ste een ID kunnen tonen.
         Hierboven heeft de gebruiker al zijn leeftijd ingevoerd. Het is aan jou om de volgende berichten af te drukken:
         Wanneer de gebruiker onder 18 is: Jij mag geen alcohol kopen.
@@ -18,5 +19,14 @@ public class Leeftijdscontrole {
 
         Maak de beslissingsstructuur (if/else if/else) hieronder.
          */
+
+        if (givenAge < 18) {
+            System.out.println("Jij mag geen alchol kopen");
+        } else if (givenAge > 18 && givenAge < 25) {
+            System.out.println("Jij mag alchol kopen, maar jij moet je ID tonen");
+        } else {
+            System.out.println("Jij mag zonder restricties alchol kopen");
+
+        }
     }
 }

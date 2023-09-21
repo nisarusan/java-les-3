@@ -1,6 +1,7 @@
 package nl.novi.opdrachten.beslissingsstructuren;
 
 import java.util.Scanner;
+import java.lang.String;
 
 public class Geslacht {
     public static void main(String[] args) {
@@ -8,6 +9,14 @@ public class Geslacht {
 
         System.out.println("Wat is uw geslacht?");
         String geslacht = userInputScanner.nextLine();
+
+        if (geslacht.equals("Man")){
+            System.out.println("Dag Meneer");
+        } else if (geslacht.equals("Vrouw")){
+            System.out.println("Dag mevrouw");
+        } else {
+            System.out.println("Dag persoon");
+        }
 
         /*
         Hier boven heeft de gebruiker zijn geslacht ingevoerd. Print met behulp van een beslissingsstructuur (if/else)
