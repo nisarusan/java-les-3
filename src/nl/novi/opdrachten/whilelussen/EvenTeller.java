@@ -11,7 +11,7 @@ public class EvenTeller {
         int teller = 0;
         while (teller <= 10) {
             System.out.println(teller);
-            teller++;
+            teller+=2;
         }
     }
 }
