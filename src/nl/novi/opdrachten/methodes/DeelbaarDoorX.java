@@ -24,4 +24,5 @@ package nl.novi.opdrachten.methodes;
  */
 
 public class DeelbaarDoorX {
+
 }

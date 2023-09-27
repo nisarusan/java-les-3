@@ -15,6 +15,8 @@ public class GeheimeCode {
         laResistanceMembers = addMembers(laResistanceMembers, "Piet");
         laResistanceMembers = addMembers(laResistanceMembers, "LeDroitCestMoi");
 
+
+
         /*
         Opdracht 1: Hierboven zijn via de methode addMembers, leden aan de lijst toegevoegd. Pas de Methode zo aan dat
          er alleen unieke namen in voor mogen komen.
@@ -35,7 +37,6 @@ public class GeheimeCode {
         Schrijf een methode die de versleutelde lijst kan omzetten naar de ontsleutelde lijst.
          */
     }
-
     private static List<String> addMembers(List<String> members, String name) {
         members.add(name);
         return members;

@@ -8,7 +8,7 @@ public class Leeftijdscontrole {
 
         System.out.println("Wat is uw leeftijd?");
         int givenAge = userInputScanner.nextInt();
-
+s
         /*
 
         In Nederland mag je alcoholische dranken kopen vanaf je 18e. Je moet echter tot je 25ste een ID kunnen tonen.
