@@ -9,14 +9,5 @@ package nl.novi.opdrachten.methodes;
  */
 public class DeelbaarDoorVijf {
 
-    public String receiveInt(int getal) {
-        String deelbaar = "";
-        if(getal / 5) {
-            deelbaar = "deelbaar door vijf";
-        return deelbaar;
-        }
-    }
-    public static void main(String[] sammieKijkOmhoog) {
-        int chosenNumber = 44;
-    }
+
 }
